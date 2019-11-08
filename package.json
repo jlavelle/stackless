@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "ava": "^2.4.0"
+  },
+  "dependencies": {
+    "@masaeedu/adt": "^1.1.1",
+    "@masaeedu/fp": "git+https://github.com/jlavelle/fp.git#perf2"
+  },
+  "name": "stackless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlavelle/stackless.git"
+  },
+  "author": "John C. Lavelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlavelle/stackless/issues"
+  },
+  "homepage": "https://github.com/jlavelle/stackless#readme",
+  "description": "",
+  "ava": {
+    "files": [
+      "src/**/*.test.js"
+    ]
+  }
+}
